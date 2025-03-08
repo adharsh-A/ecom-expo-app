@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
         flex: 1,
         width: "100%",
         height: "100%",
-        padding: 20,
+        // padding: 20,
     },
     overlay: {
         flex: 1,
@@ -84,8 +84,9 @@ const styles = StyleSheet.create({
         padding: 20,
     },
     text: {
-        color: "white",
-        fontSize: 24,
+        color: "black",
+        backgroundColor:"rgba(255, 255, 255, 0.9)",
+        fontSize: 40,
         fontWeight: "bold",
         marginBottom: 20,
         textAlign: "center", // Center the text
@@ -98,8 +99,11 @@ const styles = StyleSheet.create({
         paddingHorizontal: 30,
         borderRadius: 50,
         marginTop: 20,
-        justifyContent: "center", // Ensures vertical centering
-        alignItems: "center", // 
+        marginBottom: 40,
+        marginLeft: 20,
+        marginRight: 20,
+        justifyContent: "center", 
+        alignItems: "center", 
     },
     buttonText: {
         color: "black",

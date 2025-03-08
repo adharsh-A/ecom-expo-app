@@ -10,7 +10,7 @@ export default function Layout() {
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: colorScheme === "dark" ? "#121212" : "#fff" }}>
-      <StatusBar hidden={false} barStyle={colorScheme === "dark" ? "light-content" : "dark-content"} />
+      <StatusBar hidden={true} barStyle={colorScheme === "dark" ? "dark-content" : "dark-content"} />
 
       <Stack
         screenOptions={{
